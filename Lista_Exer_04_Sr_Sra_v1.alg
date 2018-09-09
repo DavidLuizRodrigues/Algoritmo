@@ -17,8 +17,9 @@ inicio
 // Verificando se é homem ou mulher
    se (sexo = "f") ou (sexo = "F") entao
       escreva("Ilma Sra. ", nome)
-   senao
-        escreva("Ilmo Sr. ", nome)
+   fimse
+   se (sexo = "m") ou (sexo = "M") entao
+      escreva("Ilmo Sr. ", nome)
    fimse
 
 fimalgoritmo
