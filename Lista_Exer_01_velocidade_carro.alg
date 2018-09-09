@@ -19,5 +19,8 @@ inicio
       escreval("ATENÇÃO - veiculo de placa ", placa)
       escreval("Você está andando a uma velocidade acime de 80Km/h")
       escreva("Reduza a velocidade ou será multado")
+   senao
+        escreval("Veiculo de placa ", placa)
+        escreval("Você está dentro da velocidade permitida.")
    fimse
 fimalgoritmo
