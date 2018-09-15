@@ -19,17 +19,13 @@ inicio
    escreva("Informe o peso: ")
    leia(peso)
    
-// Formula IMC: peso / altura²
-
-// Calculando o peso ideal
-
-   pesoIdeal <- peso / (altura * altura)
-   
 // Verificando se é homem ou mulher
    se (sexo = "f") ou (sexo = "F") entao
+	  pesoIdeal <- (62.1 * altura) - 44.7
       escreva("Ilma Sra. ", nome, " seu peso ideal é ", pesoIdeal)
    senao
         se(sexo = "m") ou (sexo = "M") entao
+				pesoIdeal <- (72.5 * altura) - 58
                 escreva("Ilmo Sr. ", nome, " seu peso ideal é ", pesoIdeal)
         fimse
    fimse
