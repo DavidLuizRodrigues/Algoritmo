@@ -1,22 +1,23 @@
 algoritmo "modulo"
-// Função :
+// FunÃ§Ã£o :
 // Autor :
 // Data : 09/08/2018
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
    numero, modulo: inteiro
 inicio
-// Seção de Comandos
-   escreva("Digite um número inteiro e descubra o seu módulo: ")
+// SeÃ§Ã£o de Comandos
+   escreva("Digite um nÃºmero inteiro e descubra o seu mÃ³dulo: ")
    leia(numero)
    
-// Verificando se o número é positivo ou negativo
+// Verificando se o nÃºmero Ã© positivo ou negativo
    se numero < 0 entao
-      // abs significa pegar apenas o número sem sinal, positivo ou negativo.
+      // abs Retorna o valor absoluto de uma expressÃ£o do tipo inteiro ou real. Equivale a | expressÃ£o | na Ã¡lgebra 
+      significa pegar apenas o nÃºmero sem sinal, positivo ou negativo.
       modulo <- abs(numero)
    senao
       modulo <- numero
    fimse
    
-   escreva("O modulo deste número é",modulo)
+   escreva("O modulo deste nÃºmero Ã©",modulo)
 fimalgoritmo
